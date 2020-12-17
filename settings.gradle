@@ -1,0 +1,3 @@
+include ':vlibrary'
+include ':app'
+rootProject.name = "Vutils"

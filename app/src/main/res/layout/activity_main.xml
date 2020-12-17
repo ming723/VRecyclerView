@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.abnerming.vlibrary.view.VRecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultLoadingStyle="1"
+        app:defaultOverScroll="true"
+        app:refresh="true"
+        app:loadmore="false"
+        app:isdivider="false"
+        app:divider="@drawable/deviderline"
+        app:show_data_null="true"
+        app:show_net_error="true"
+        />
+
+</LinearLayout>
